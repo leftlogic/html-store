@@ -1,4 +1,4 @@
-var htmldb = require('./');
+var htmldb = require('../');
 
 /**
  * Parse minimal html file and add data

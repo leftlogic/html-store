@@ -1,1 +1,1 @@
-module.exports = require('./lib/htmldb');
+module.exports = require('./lib/html-store');
