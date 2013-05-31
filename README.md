@@ -49,9 +49,11 @@ The output of the above is:
 <meta name="description" content="My nice page.">
 
 <h1>Hello, world!</h1>
+
 <script type="text" data-name="markdown">
 # Hello, world!
 </script>
+
 <script type="text" data-name="less">
 body { h1 { color: red; } }
 </script>
