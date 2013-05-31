@@ -24,9 +24,9 @@ t.test('render', function (t) {
     t.ok(html, 'Truthy result was returned');
 
     [
-      '<script type="text" data-name="html">',
+      '<script data-htmlstore="" type="text" data-name="html">',
       'body { background: red; }',
-      '<script type="text" data-name="markdown">',
+      '<script data-htmlstore="" type="text" data-name="markdown">',
       '# Hello, world',
       '<meta name="title" content="Something nice.">',
       '<meta name="description" content="I love kittens.">'
@@ -49,9 +49,9 @@ t.test('render', function (t) {
     t.ok(html, 'Truthy result was returned');
 
     [
-      '<script type="text" data-name="html">',
+      '<script data-htmlstore="" type="text" data-name="html">',
       'body { background: red; }',
-      '<script type="text" data-name="markdown">',
+      '<script data-htmlstore="" type="text" data-name="markdown">',
       '# Hello, world',
       '<meta name="title" content="Something nice.">',
       '<meta name="description" content="I love kittens.">'
