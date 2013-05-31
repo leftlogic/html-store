@@ -1,10 +1,10 @@
-var htmldb = require('../');
+var htmlstore = require('../');
 
 /**
  * Parse minimal html file and add data
  */
 
-var bin = Object.create(htmldb.file);
+var bin = Object.create(htmlstore.file);
 
 bin.init([
   '<!doctype html>',
@@ -35,7 +35,7 @@ console.log();
  * Parse larger html file and add data
  */
 
-var bin = Object.create(htmldb.file);
+var bin = Object.create(htmlstore.file);
 
 bin.init([
   '<!doctype html>',
@@ -70,7 +70,7 @@ console.log();
  * Parse larger html file and add data & tidy
  */
 
-var bin = Object.create(htmldb.file);
+var bin = Object.create(htmlstore.file);
 
 bin.init([
   '<!doctype html>',

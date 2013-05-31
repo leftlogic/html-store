@@ -1,4 +1,4 @@
-var htmldb = require('../'),
+var htmlstore = require('../'),
     fix = require('./fixtures');
 
 var t = require('tap'),
@@ -18,7 +18,7 @@ t.test('parse', function (t) {
     var originalBin = fix.headAndBody,
         originalHtml = originalBin.render();
 
-    var bin = htmldb.parse(originalHtml),
+    var bin = htmlstore.parse(originalHtml),
         html = bin.render();
 
     t.deepEqual(bin.data, originalBin.data, 'Data is the same');
@@ -32,7 +32,7 @@ t.test('parse', function (t) {
     var originalBin = fix.minimal,
         originalHtml = originalBin.render();
 
-    var bin = htmldb.parse(originalHtml),
+    var bin = htmlstore.parse(originalHtml),
         html = bin.render();
 
     t.deepEqual(bin.data, originalBin.data, 'Data is the same');

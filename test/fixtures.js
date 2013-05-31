@@ -1,8 +1,8 @@
-var htmldb = require('../');
+var htmlstore = require('../');
 
 module.exports = {
 
-  headAndBody: Object.create(htmldb.file)
+  headAndBody: Object.create(htmlstore.file)
     .init([
       '<!doctype html>',
       '<head>',
@@ -24,7 +24,7 @@ module.exports = {
       description: 'I love kittens.'
     }),
 
-  minimal: Object.create(htmldb.file)
+  minimal: Object.create(htmlstore.file)
     .init([
       '<!doctype html>',
       '<title>My example bin</title>',

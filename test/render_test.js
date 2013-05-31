@@ -1,4 +1,4 @@
-var htmldb = require('../'),
+var htmlstore = require('../'),
     fix = require('./fixtures');
 
 var t = require('tap'),
