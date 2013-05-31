@@ -29,7 +29,7 @@ t.test('render', function (t) {
       '<script type="text" data-name="markdown">',
       '# Hello, world',
       '<meta name="title" content="Something nice.">',
-      '<meta name="description" content="I kill kittens.">'
+      '<meta name="description" content="I love kittens.">'
     ].forEach(function (str) {
       t.ok(_.str.include(html, str), 'Includes ' + str);
     });
@@ -54,7 +54,7 @@ t.test('render', function (t) {
       '<script type="text" data-name="markdown">',
       '# Hello, world',
       '<meta name="title" content="Something nice.">',
-      '<meta name="description" content="I kill kittens.">'
+      '<meta name="description" content="I love kittens.">'
     ].forEach(function (str) {
       t.ok(_.str.include(html, str), 'Includes ' + str);
     });

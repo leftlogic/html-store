@@ -21,7 +21,7 @@ module.exports = {
     })
     .meta({
       title: 'Something nice.',
-      description: 'I kill kittens.'
+      description: 'I love kittens.'
     }),
 
   minimal: Object.create(htmldb.file)
@@ -39,7 +39,7 @@ module.exports = {
     })
     .meta({
       title: 'Something nice.',
-      description: 'I kill kittens.'
+      description: 'I love kittens.'
     })
 
 };

@@ -22,7 +22,7 @@ inputBin.set({
 
 inputBin.meta({
   title: 'Something nice.',
-  description: 'I kill kittens.'
+  description: 'I love kittens.'
 });
 
 console.log(inputBin.render());

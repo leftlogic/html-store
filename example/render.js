@@ -22,7 +22,7 @@ bin.set({
 
 bin.meta({
   title: 'Something nice.',
-  description: 'I kill kittens.'
+  description: 'I love kittens.'
 });
 
 console.log(bin.render());
@@ -57,7 +57,7 @@ bin.set({
 
 bin.meta({
   title: 'Something nice.',
-  description: 'I kill kittens.'
+  description: 'I love kittens.'
 });
 
 console.log(bin.render());
@@ -92,7 +92,7 @@ bin.set({
 
 bin.meta({
   title: 'Something nice.',
-  description: 'I kill kittens.'
+  description: 'I love kittens.'
 });
 
 bin.render(function (err, html) {
